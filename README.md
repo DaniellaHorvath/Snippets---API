@@ -3,7 +3,7 @@
 
 ## Files in the repository
 
-### 1. app.js 
+### <div style="background-color: grey; padding: 10px;">1. app.js</div> 
 
 **GOAL:** Create endpoints to POST code snippets and then GET them back.
 
@@ -33,7 +33,7 @@ Challenge 3 - basic CRUD operations
 
 ## Data Security (Salting & Hashing)
 
-### 2. encryption.js
+### <div style="background-color: grey; padding: 10px;">2. encryption.js</div> 
 
 This file demonstrates how to use crypto-js to perform encryption and decryption of data. Encryption transforms plain text into a scrambled format that can only be reverted back to the original data using a specific key.
 
@@ -44,7 +44,7 @@ In this file, you will find an example of:
  - How to encrypt a message.
  - How to decrypt an encrypted message back to the original text.
 
-### 3. hashing.js
+### <div style="background-color: grey; padding: 10px;">3. hashing.js</div>  
 
 This file demonstrates how to use bcrypt for hashing. Bcrypt is a password-hashing library that helps to securely hash user passwords, making them difficult to crack.
 
