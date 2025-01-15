@@ -78,13 +78,12 @@ app.delete('/snippets/:id', (req, res) => {
 app.get("/random", (req, res) => {
   // Write your code here
   const randomNumber = Math.floor(Math.random() * 8);
-  const randomSnippet = snippets[randomNumber];
+  const randomSnippet = data[randomNumber];
   res.send(randomSnippet);
 });
 
 
 // Challenge 2 - GET /flipcoin
-//Flipcoin 
 app.get('/flipcoin', (req, res) => {
   const randomNumber = Math.floor(Math.random() * 2);
   if(randomNumber === 0){
