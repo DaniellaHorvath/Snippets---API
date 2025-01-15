@@ -1,8 +1,9 @@
 # Activity Overview
 
-# Files in the repository
 
-1. app.js 
+## Files in the repository
+
+### 1. app.js 
 
 **GOAL:** Create endpoints to POST code snippets and then GET them back.
 
@@ -30,9 +31,9 @@ Challenge 2 - GET /flipcoin
 
 Challenge 3 - basic CRUD operations
 
-#Data Security (Salting & Hashing)
+## Data Security (Salting & Hashing)
 
-**2. encryption.js**
+### 2. encryption.js
 
 This file demonstrates how to use crypto-js to perform encryption and decryption of data. Encryption transforms plain text into a scrambled format that can only be reverted back to the original data using a specific key.
 
@@ -43,7 +44,7 @@ In this file, you will find an example of:
  - How to encrypt a message.
  - How to decrypt an encrypted message back to the original text.
 
-**3. hashing.js**
+### 3. hashing.js
 
 This file demonstrates how to use bcrypt for hashing. Bcrypt is a password-hashing library that helps to securely hash user passwords, making them difficult to crack.
 
@@ -73,7 +74,7 @@ login: Verifies username and password against user in DB
 3. Use bcrypt.compare() to compare the plaintext password to the hashed password in the DB.
 4. If the hashed password matches, return the string Success. Otherwise, return Failed.
 
-# Prerequisites
+## Prerequisites
 Before running the examples, make sure to install the required dependencies:
 ```bash
     npm install bcryptjs crypto-js
